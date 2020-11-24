@@ -22,11 +22,11 @@ body {
 }
 
 /***************************************************************/
-/*****Header*****/
+/*****   Headern Session:   *****/
 /***************************************************************/
 header {
   background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)),
-    url(images/hero-pic.jpg);
+    url(/images/hero-pic.jpg);
   height: 80vh;
   background-size: cover;
   background-position: center;
@@ -34,10 +34,24 @@ header {
 
 .hero-session {
   position: absolute;
-  margin-top: 30%;
+  padding-top: 30px;
   padding-left: 30%;
 }
 
+/***************************************************************/
+/*****       Navbar:   *****/
+/***************************************************************/
+
+.navbar-session {
+  text-decoration: none;
+  color: black;
+  display: inline;
+  float: right;
+}
+
+/***************************************************************/
+/*****   Typography:   *****/
+/***************************************************************/
 span {
   color: rgb(247, 140, 18);
 }
@@ -73,8 +87,20 @@ a.btn {
   text-decoration: none;
   width: 150px;
   word-wrap: break-word;
+  margin-right: 10px;
 }
 
 .btn:hover {
   background-color: rgb(172, 69, 51);
+}
+
+/***************************************************************/
+/*****Logo*****/
+/***************************************************************/
+
+.logo {
+  width: 50px;
+  background-color: white;
+  margin: 10px 0 0 5px;
+  padding: 5px;
 }
