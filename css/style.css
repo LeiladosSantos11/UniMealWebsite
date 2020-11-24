@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: rgb(132, 114, 150);
-  color: rgb(63, 61, 61);
+  background-color: #1c1c1c;
+  color: rgb(233, 227, 227);
   font-family: "poppins", "Segoe UI", Tahoma, Verdana, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -17,7 +17,6 @@ body {
 }
 
 .row {
-  width: 1140px;
   margin: 0 auto;
 }
 
@@ -25,17 +24,20 @@ body {
 /*****   Headern Session:   *****/
 /***************************************************************/
 header {
-  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)),
-    url(/images/hero-pic.jpg);
-  height: 80vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+    url(../images/hero-pic.jpg);
+  height: 100vh;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .hero-session {
   position: absolute;
-  padding-top: 30px;
-  padding-left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /***************************************************************/
@@ -45,8 +47,23 @@ header {
 .navbar-session {
   text-decoration: none;
   color: black;
-  display: inline;
+  list-style: none;
   float: right;
+}
+#logo {
+  justify-items: end;
+}
+.navbar-session li {
+  display: inline-block;
+  padding-right: 12px;
+  margin-top: 5px;
+}
+
+.navbar-session li a {
+  font-weight: 500;
+}
+li:hover {
+  color: rgb(172, 55, 55);
 }
 
 /***************************************************************/
@@ -62,9 +79,15 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   word-spacing: 2px;
-  font-size: 200%;
+  font-size: 150%;
 }
 
+h5 {
+  margin-top: 10px;
+}
+h2 {
+  padding: 10px 0;
+}
 /***************************************************************/
 /*****Buttons*****/
 /***************************************************************/
@@ -87,7 +110,7 @@ a.btn {
   text-decoration: none;
   width: 150px;
   word-wrap: break-word;
-  margin-right: 10px;
+  margin: 10px 0 0 10px;
 }
 
 .btn:hover {
@@ -103,4 +126,18 @@ a.btn {
   background-color: white;
   margin: 10px 0 0 5px;
   padding: 5px;
+}
+
+/***************************************************************/
+/*****Content*****/
+/***************************************************************/
+.content1 {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.content-col {
+  width: 80%;
+  text-align: left;
+  padding-left: 20%;
 }
