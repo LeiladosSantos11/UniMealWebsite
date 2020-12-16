@@ -1,0 +1,157 @@
+/***************************************************************/
+/*****General rules: Padding, margings, color and font-size*****/
+/***************************************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1c1c;
+  color: rgb(233, 227, 227);
+  font-family: "poppins", "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+/***************************************************************/
+/*****   Headern Session:   *****/
+/***************************************************************/
+header {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
+    url(../images/hero-pic.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.hero-session {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -40%);
+}
+
+/***************************************************************/
+/*****       Navbar:   *****/
+/***************************************************************/
+
+.navbar-session {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  float: right;
+}
+#logo {
+  justify-items: end;
+}
+.navbar-session li {
+  display: inline-block;
+  padding: 1em 0.6em 1em 0;
+  padding;
+}
+
+.navbar-session li a {
+  font-weight: 600;
+}
+li:hover {
+  color: rgb(172, 55, 55);
+}
+
+/***************************************************************/
+/*****   Typography:   *****/
+/***************************************************************/
+span {
+  color: rgb(247, 140, 18);
+}
+
+h1 {
+  margin: 0;
+
+  color: #e7dfdb;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  font-size: 2.5rem;
+}
+
+h5 {
+  padding: 1em 0 .5em 0;
+}
+
+h2 {
+  padding: 0.5em 0;
+}
+/***************************************************************/
+/*****Buttons*****/
+/***************************************************************/
+a.btn {
+  background-color: rgb(247, 140, 18);
+  border-collapse: collapse;
+  border-radius: 6px;
+  border: solid 1px rgb(175, 160, 160);
+  color: #fff;
+  cursor: pointer;
+  direction: ltr;
+  display: inline-block;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 0.9em;
+  list-style: outside none none;
+  padding: 1em 0;
+  text-align: center;
+  text-decoration: none;
+  width: 7.5em;
+  word-wrap: break-word;
+  margin: 0.5em 0 0 0.5em;
+}
+
+.btn:hover {
+  background-color: rgb(172, 69, 51);
+}
+
+/***************************************************************/
+/*****Logo*****/
+/***************************************************************/
+
+.logo {
+  width: 3rem;
+  background-color: white;
+  margin: 0.5em 0 0 0.2em;
+  padding: 0.25em;
+}
+
+/***************************************************************/
+/*****Content*****/
+/***************************************************************/
+.content1 {
+  height: 100%;
+  margin: 0 auto;
+  word-spacing: 2px;
+}
+
+.content-col {
+  padding: 6em 0;
+ width: 80%;
+  text-align: left;
+  padding-left: 20%; 
+}
+
+footer {
+  height: 12rem;
+  background-color: rgb(194, 190, 194);
+  color: #fff;
+}
+
+.text-footer {
+  margin-left: 1em;
+}
